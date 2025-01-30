@@ -1,69 +1,86 @@
-```bash
-# 📄 PDF-Based RAG with Streamlit, LangChain, and Ollama
+# 📚 Document Assistant
 
 ## Overview
-The **PDF-Based RAG** leverages **Streamlit**, **LangChain**, **ChromaDB**, and **Ollama models** to provide users with intelligent responses based on PDF documents. This system processes PDFs, encodes them using text embeddings, and utilizes **ChromaDB** for efficient vector storage and retrieval, delivering precise responses through a user-friendly web interface.
+The **Document Assistant** leverages **Streamlit**, **LangChain**, **Chroma**, and **Ollama** to process PDFs and provide intelligent responses to user queries. It encodes documents using embedding models, stores them in a **Chroma vector database**, and retrieves relevant context to enhance natural language understanding.
+
+---
 
 ## ✨ Features
-- **Document Preprocessing**: Splits and processes PDF documents into manageable chunks.
-- **Vector Storage**: Efficient indexing and storage using **ChromaDB**.
-- **Intelligent Retrieval**: Uses **Multi-Query Retrieval** for improved accuracy.
-- **Generative AI Integration**: Powered by **Ollama** models (`llama3.2:1b` & `deepseek-r1:1.5b`).
-- **Simple Web Interface**: Built with **Streamlit** for seamless user experience.
-- **Logging & Response Storage**: Saves user queries and responses for analysis.
+- **📄 PDF Processing**: Reads and processes PDF documents for retrieval.
+- **🔍 Advanced Retrieval**: Utilizes multi-query retrievers for improved search accuracy.
+- **🧠 Generative AI Integration**: Powered by **DeepSeek R1:1.5B** for context-aware responses.
+- **⚡ Streamlit UI**: Simple and interactive web interface.
+- **📊 Logging & Response Tracking**: Logs interactions and saves responses for review.
+
+---
 
 ## 🚀 Workflows
-1. **Load and Process PDF**: Extracts text and splits it into chunks.
-2. **Embed & Store in ChromaDB**: Generates embeddings using **nomic-embed-text**.
-3. **Retrieve Context**: MultiQueryRetriever fetches relevant document chunks.
-4. **Generate Answer**: LLM models produce responses based on retrieved data.
-5. **Log Responses**: Stores interactions in a CSV file.
 
-## 🛠️ Installation & Usage
+1. **Load & Process PDFs**
+   - Extract text and split it into meaningful chunks.
+2. **Vectorize & Store Data**
+   - Encode document embeddings using **Ollama** and store them in **ChromaDB**.
+3. **Query & Generate Response**
+   - Use a **Multi-Query Retriever** to fetch relevant context.
+4. **Display Response**
+   - Generate and display context-aware answers using the **LLM**.
 
-# Clone the repository
-git clone https://github.com/your-username/pdf-rag-chatbot.git
-cd pdf-rag-chatbot
+---
 
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate     # Windows
+## 🛠️ Setup Instructions
 
-# Install dependencies
-pip install -r requirements.txt
+### Prerequisites
+- Python 3.8+
+- **Ollama** installed and running
+- Required Python packages from `requirements.txt`
 
-# Pull required Ollama models
-ollama pull deepseek-r1:1.5b
-ollama pull llama3.2:1b
-ollama pull nomic-embed-text
-
-# Run the application
-streamlit run app.py
-
-## 📂 Project Structure
-.
-├── app.py                 # Main Streamlit application
-├── requirements.txt       # Python dependencies
-├── logs/                  # Logging output
-├── chroma_db/             # Vector storage database
-├── data/                  # PDF document storage
-└── utils/                 # Document processing & retrieval scripts
-
-## 🔧 Customization
-# Switch Model: Update `MODEL_NAME` in `app.py`
-MODEL_NAME = "llama3.2:1b"  # or "deepseek-r1:1.5b"
-
-# Change Document: Modify `DOC_PATH`
-DOC_PATH = "your-document.pdf"
-
-## 📌 Example Query
-# User: "How does this paper help improve vaccine adoption?"
-# Response: "Based on the extracted context, the paper discusses..."
-
-## ❤️ Credits
-# Developed by: [Tanvir Ahmed](https://github.com/tanvircs)
-
-# This one-page README ensures a structured and easy-to-follow guide for deployment. 🚀
+### 1️⃣ Clone the Repository
+```bash
+git clone <repo-url>
+cd <repo-name>
 ```
 
+### 2️⃣ Create a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Start Ollama Service
+```bash
+ollama serve
+```
+
+### 5️⃣ Run the Streamlit App
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📂 Project Structure
+```plaintext
+.
+├── app.py                # Main Streamlit application
+├── src/
+│   ├── document_loader.py # PDF processing functions
+│   ├── retriever.py       # Multi-query retriever setup
+│   ├── model.py          # LLM interaction module
+├── requirements.txt      # Python package dependencies
+├── logs/                 # Log files
+├── responses/            # CSV responses
+├── chroma_db/            # Vector database storage
+```
+
+---
+
+## ❤️ Credits
+**Developed by**: Tanvir Ahmed  
+**GitHub**: [tanvircs](https://github.com/tanvircs)
+
+---
