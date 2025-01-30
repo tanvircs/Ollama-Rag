@@ -1,0 +1,162 @@
+2025-01-30 08:11:14,666 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-01-30 08:11:15,279 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-30 08:11:15,479 - INFO - Loaded existing vector database.
+2025-01-30 08:11:15,497 - INFO - Retriever created.
+2025-01-30 08:11:15,498 - INFO - Chain created with preserved syntax.
+2025-01-30 08:11:18,024 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:11:22,007 - INFO - Generated queries: ['Here are five different versions of the original question to retrieve relevant documents from a vector database:', '**Version 1:** What are the social and economic implications of the COVID-19 pandemic on vaccination efforts?', 'This version targets more specific aspects of the topic, such as the impact on vaccination strategies.', '**Version 2:** How has the COVID-19 pandemic affected various aspects of society, including education, employment, and healthcare access?', 'This question encourages a broader scope, focusing on how the pandemic has impacted multiple sectors beyond just vaccination.', '**Version 3:** What are the key factors driving changes in public opinion regarding COVID-19 vaccines? ', 'This version explores the emotional and psychological aspects of public perception towards vaccines.', '**Version 4:** In what ways has the COVID-19 pandemic altered societal attitudes towards health, medicine, and vaccine promotion?', 'This question delves into the cultural and social implications of the pandemic on our understanding of healthcare.', '**Version 5:** How have different groups (e.g., younger generations, certain racial or ethnic populations) responded to the COVID-19 pandemic in relation to vaccination?', 'This version highlights the diversity of perspectives and experiences within society, as well as potential biases.']
+2025-01-30 08:11:23,163 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:11:23,241 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:11:23,291 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:11:23,339 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:11:23,388 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:11:23,461 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:11:23,508 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:11:23,557 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:11:23,605 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:11:23,659 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:11:23,710 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:11:25,483 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:11:35,112 - INFO - Saved response to responses_llama3.2_1b.csv
+2025-01-30 08:12:01,516 - INFO - Retriever created.
+2025-01-30 08:12:01,517 - INFO - Chain created with preserved syntax.
+2025-01-30 08:12:01,701 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:12:03,311 - INFO - Generated queries: ['Here are five different versions of the original question to retrieve relevant documents from a vector database:', '1. The impact of vaccination on public health outcomes?', '2. How does vaccine efficacy affect disease prevention strategies?', '3. What are the key findings of research on vaccine effectiveness and its implications for global health?', '4. Can vaccines be used to prevent major diseases, or do they only protect against specific conditions?', '5. Evaluating the scientific consensus on the vaccination effect: current research and future directions?']
+2025-01-30 08:12:03,354 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:12:03,402 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:12:03,450 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:12:03,498 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:12:03,548 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:12:03,594 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:12:05,348 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:12:07,294 - INFO - Saved response to responses_llama3.2_1b.csv
+2025-01-30 08:12:31,893 - INFO - Retriever created.
+2025-01-30 08:12:31,894 - INFO - Chain created with preserved syntax.
+2025-01-30 08:12:32,078 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:12:34,266 - INFO - Generated queries: ["I'll generate five different versions of the user question to retrieve relevant documents from a vector database. Here they are:", '1. What does this research paper study about vaccine efficacy?', '2. How do researchers assess the impact of vaccination on public health outcomes?', '3. In what ways has this study investigated the effectiveness of vaccines in real-world settings?', '4. Can you elaborate on how this paper examines the correlation between vaccination rates and disease incidence?', '5. What specific aspects of vaccine evaluation are explored in this research paper?', 'These alternative questions aim to capture different nuances and perspectives on the original question, which might help improve the search results by covering various angles and approaches.']
+2025-01-30 08:12:34,311 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:12:34,365 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:12:34,415 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:12:34,468 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:12:34,516 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:12:34,563 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:12:34,608 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:12:36,496 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:12:37,747 - INFO - Saved response to responses_llama3.2_1b.csv
+2025-01-30 08:13:01,462 - INFO - Retriever created.
+2025-01-30 08:13:01,463 - INFO - Chain created with preserved syntax.
+2025-01-30 08:13:01,652 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:13:03,869 - INFO - Generated queries: ['I can generate different versions of your question to help retrieve relevant documents from a vector database. Here are five alternative versions:', '1. What impact does the COVID-19 vaccine have on my overall health?', '2. How effective is the vaccine in preventing severe illnesses or hospitalizations due to specific conditions?', '3. What are the key benefits and potential side effects of getting vaccinated against [specific disease/condition]?', '4. Can I trust the vaccination recommendations based on research findings, medical evidence, and expert opinions?', '5. Are there any concerns or limitations associated with certain vaccines, such as [vaccine type], regarding their impact on specific health outcomes?']
+2025-01-30 08:13:03,913 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:13:03,964 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:13:04,016 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:13:04,067 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:13:04,116 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:13:04,164 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:13:06,229 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:13:41,220 - INFO - Saved response to responses_llama3.2_1b.csv
+2025-01-30 08:17:04,580 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-01-30 08:17:05,109 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-30 08:17:05,291 - INFO - Loaded existing vector database.
+2025-01-30 08:17:05,306 - INFO - Retriever created.
+2025-01-30 08:17:05,307 - INFO - Chain created with preserved syntax.
+2025-01-30 08:17:05,518 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:17:08,539 - INFO - Generated queries: ['Here are five different versions of the given user question:', '1. How were COVID-19 vaccine tweets, related to vaccination efforts or public health campaigns during the pandemic, sourced and preprocessed for AI-driven sentiment analysis?', '2. What methods were used to collect and preprocess tweets related to COVID-19 vaccines for machine learning models that analyze public opinion and sentiment on these topics?', '3. How was the collection process of COVID-19 vaccine-related social media data, including tweets, utilized by researchers or analysts for analyzing public sentiment during the pandemic period?', '4. What strategies were employed to gather and preprocess tweets about COVID-19 vaccines before they were analyzed using natural language processing techniques like sentiment analysis?', '5. What steps were taken in 2020/2021 to source and preprocess tweets related to COVID-19 vaccines, such as those used by researchers studying public opinion and vaccine-related sentiments during that time?']
+2025-01-30 08:17:08,585 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:17:08,671 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:17:08,723 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:17:08,771 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:17:08,824 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:17:08,874 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:17:10,646 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:17:13,398 - INFO - Saved response to responses_llama3.2_1b.csv
+2025-01-30 08:18:02,262 - INFO - Retriever created.
+2025-01-30 08:18:02,263 - INFO - Chain created with preserved syntax.
+2025-01-30 08:18:02,460 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:18:07,119 - INFO - Generated queries: ['Here are five different versions of the original question, each with a slightly different perspective:', '1. What innovative approaches can researchers develop to integrate sentiment analysis into publicly available data on COVID-19 vaccine-related tweets to better understand public opinions and inform evidence-based decision-making for improving public health?', '2. How can machine learning models be trained on aggregated sentiment data from Twitter or other social media platforms related to COVID-19 vaccines, leveraging this information to predict vaccination rates, identify effective messaging strategies, and develop targeted interventions that foster vaccine adoption?', '3. What new technologies or techniques can be leveraged in conjunction with traditional text analysis methods to enhance the quality of public health datasets related to COVID-19 vaccine-related tweets? How might these advancements impact our ability to monitor vaccine-related sentiment trends over time?', '4. Can predictive analytics tools and machine learning algorithms be trained on large-scale datasets of Twitter conversations about COVID-19 vaccines, using natural language processing techniques such as topic modeling or named entity recognition to uncover insights into public perceptions of vaccine safety and effectiveness?', '5. How can collaboration between social media data analysts, healthcare professionals, and other stakeholders be improved by leveraging the collective expertise of online communities related to COVID-19 vaccines? What opportunities might arise for the creation of multimodal datasets that integrate text, images, and audio features with sentiment analysis results to foster a more comprehensive understanding of public attitudes towards vaccine adoption?']
+2025-01-30 08:18:07,164 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:18:07,224 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:18:07,277 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:18:07,328 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:18:07,383 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:18:07,452 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:18:09,222 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:18:34,877 - INFO - Saved response to responses_llama3.2_1b.csv
+2025-01-30 08:19:15,736 - INFO - Retriever created.
+2025-01-30 08:19:15,737 - INFO - Chain created with preserved syntax.
+2025-01-30 08:19:15,919 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:19:18,194 - INFO - Generated queries: ['Here are five different versions of the given user question to retrieve relevant documents from a vector database:', '- What strategies can be employed to increase vaccine uptake through social media platforms?', '- Can using natural language processing in conjunction with machine learning algorithms enhance vaccine awareness and adoption rates among underserved communities?', '- How can sentiment analysis help in developing targeted public health campaigns that encourage people to adopt vaccines more effectively?', '- In what ways can the application of computer vision techniques, including image recognition and analysis, be utilized to improve public engagement with vaccination efforts?', '- What are some potential applications of sentiment analysis in evaluating the effectiveness of vaccine education programs, particularly in low-resource settings?']
+2025-01-30 08:19:18,250 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:19:18,301 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:19:18,356 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:19:18,406 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:19:18,454 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:19:18,507 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:19:20,781 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:20:17,502 - INFO - Saved response to responses_llama3.2_1b.csv
+2025-01-30 08:20:50,767 - INFO - Retriever created.
+2025-01-30 08:20:50,768 - INFO - Chain created with preserved syntax.
+2025-01-30 08:20:51,726 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:21:01,417 - INFO - Retriever created.
+2025-01-30 08:21:01,417 - INFO - Chain created with preserved syntax.
+2025-01-30 08:21:02,833 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:21:13,699 - INFO - Generated queries: ['I can generate different versions of your question to retrieve relevant documents from a vector database. Here are five alternative questions:', 'How can this paper contribute meaningfully to the field of [specific area]?', 'What new insights or perspectives does this paper offer on [specific topic]?', 'Can you explain how this paper addresses [key research gap] in [specific context]?', 'How do the findings and methodologies presented in this paper align with current best practices in [specific field]?', 'Can you summarize the key takeaways from this paper and provide context for its relevance to future research?']
+2025-01-30 08:21:14,776 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:21:15,753 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:21:16,824 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:21:17,781 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:21:18,773 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:21:19,846 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:21:41,737 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:22:11,995 - INFO - Generated queries: ['Here are five different versions of the original question:', '1. What strategies can be employed to boost vaccination rates among underserved populations?', '2. Can your research provide insights on how specific demographics or socioeconomic factors impact vaccine uptake?', '3. Are there any novel methods or initiatives that have successfully increased community engagement with vaccination programs?', '4. How do existing studies examine the correlation between educational attainment and vaccine adoption rates?', '5. What data-driven approaches can be applied to identify areas where public health efforts could be optimized for greater success in increasing vaccine adherence?']
+2025-01-30 08:22:12,955 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:22:14,038 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:22:15,016 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:22:16,091 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:22:17,036 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:22:18,064 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 08:22:43,216 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 08:59:58,829 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-01-30 08:59:59,865 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-30 09:00:00,213 - INFO - Loaded existing vector database.
+2025-01-30 09:00:00,227 - INFO - Retriever created.
+2025-01-30 09:00:00,228 - INFO - Chain created with preserved syntax.
+2025-01-30 09:00:07,108 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 09:00:08,470 - INFO - Generated queries: ['Here are five different versions of the original question to retrieve relevant documents from a vector database:', 'How can this research improve public health adoption?', 'What specific aspects of this study contribute to increased vaccine uptake?', 'In what ways does this paper enhance community engagement in vaccine campaigns?', 'What new insights or applications of this research facilitate more effective vaccination strategies?', 'Can this work help explain why some populations are hesitant to adopt vaccines?']
+2025-01-30 09:00:10,218 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:00:10,308 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:00:10,357 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:00:10,400 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:00:10,446 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:00:10,494 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:00:12,245 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 09:00:16,197 - INFO - Saved response to responses_llama3.2_1b.csv
+2025-01-30 09:01:21,090 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-01-30 09:01:21,641 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-30 09:01:21,831 - INFO - Loaded existing vector database.
+2025-01-30 09:01:21,847 - INFO - Retriever created.
+2025-01-30 09:01:21,848 - INFO - Chain created with preserved syntax.
+2025-01-30 09:01:22,071 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 09:01:24,705 - INFO - Generated queries: ['Here are five different versions of the given user question to retrieve relevant documents from a vector database:', '1. What are the social and economic implications of COVID-19 vaccination on communities worldwide?', '2. Can you provide an overview of how COVID-19 vaccines have affected various aspects of society, including healthcare systems, education, and public health infrastructure?', '3. How do COVID-19 vaccinations influence social dynamics and community cohesion in different regions and cultures?', '4. What are the key findings and insights about the impact of COVID-19 vaccination on societal structures, such as family relationships, work-life balance, and leisure activities?', '5. Are there any notable differences or similarities in how COVID-19 vaccines have affected specific socioeconomic groups, including low-income communities, rural areas, and minority populations?']
+2025-01-30 09:01:24,749 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:01:24,835 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:01:24,885 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:01:24,934 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:01:24,985 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:01:25,032 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:01:26,776 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 09:01:46,121 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2025-01-30 09:01:46,693 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-30 09:01:46,976 - INFO - Loaded existing vector database.
+2025-01-30 09:01:46,989 - INFO - Retriever created.
+2025-01-30 09:01:46,990 - INFO - Chain created with preserved syntax.
+2025-01-30 09:01:47,202 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 09:01:49,361 - INFO - Generated queries: ['Here are five different versions of the original question to retrieve relevant documents from a vector database:', '1. What do research papers on vaccine adoption suggest about their impact on public health?', '2. Can you provide me with an overview of studies that examine how vaccines influence vaccination rates among diverse populations?', '3. How have scientific articles on vaccine effectiveness contributed to increased vaccine adoption in the past decade?', '4. What are some key findings from recent research that indicate a positive correlation between vaccine adherence and improved public health outcomes?', '5. What insights can be gained from analyzing existing literature on the relationship between vaccine uptake and social factors, such as education and socioeconomic status?']
+2025-01-30 09:01:49,407 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:01:49,488 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:01:49,538 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:01:49,588 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:01:49,640 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:01:49,692 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-01-30 09:01:51,489 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-01-30 09:02:04,888 - INFO - Saved response to responses_llama3.2_1b.csv
